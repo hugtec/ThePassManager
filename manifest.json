@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "ThePassManager",
+    "version": "1.0",
+    "description": "Password management extension",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "logo.png",
+            "48": "logo.png",
+            "128": "logo.png"
+        }
+    },
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "permissions": [
+        "storage",
+        "activeTab"
+    ]
+}

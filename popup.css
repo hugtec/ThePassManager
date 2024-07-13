@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    background-color: #f3e4e3;
+}
+
+.container {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+input,
+button {
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#passwordList {
+    margin-top: 20px;
+    text-align: left;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.record {
+    margin-bottom: 10px;
+}
+
+.record button {
+    margin-left: 10px;
+}
